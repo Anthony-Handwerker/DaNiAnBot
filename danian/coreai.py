@@ -3,7 +3,7 @@ class CoreAI:
     def __init__(self, winner = None, fdecision = None, sdecision = None, breadth = 5, depth = 3): #arbitrary breadth/depth choices
         self.winner = winner # should accept a board and return n
         self.fast_decision = fdecision # should accept a board, return a move.
-        slef.slow_decision = sdecision # should accept a number n and a board, and return n moves in a list.
+        self.slow_decision = sdecision # should accept a number n and a board, and return n moves in a list.
         self.root = MCTreeNode()
         self.breadth = breadth
         self.depth = depth
@@ -23,8 +23,6 @@ class CoreAI:
                 winrate_max = winrate
                 best_move = node.move
         return best_move
-
-
 
     def expansion_helper(self, node, board, level):
         if level == 0:
