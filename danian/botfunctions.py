@@ -3,7 +3,7 @@ import random
 random.seed()
 
 
-class TestFunctions:
+class BotFunctions:
     @staticmethod
     def random_fchoice(board, color):
         moves = [(i,j) for i in range(0,9) for j in range(0,9)]
@@ -40,12 +40,12 @@ class TestFunctions:
 
     @staticmethod
     def naive_winner(board):
-        score = TestFunctions.get_bias(board, 5.5)
+        score = BotFunctions.get_bias(board, 5.5)
         spaces = [(i,j) for i in range(0,9) for j in range(0,9)]
         for i in range(0,9):
             for j in range(0,9):
                 point = (i,j)
-                subscore, color = TestFunctions.explore(board, point, spaces)
+                subscore, color = BotFunctions.explore(board, point, spaces)
                 if color == 'w':
                     score += subscore
                 elif color == 'b':
@@ -67,7 +67,7 @@ class TestFunctions:
         color = ''
         for d in direcs:
             new_point = (point[0] + d[0], point[1] + d[1])
-            s, c = TestFunctions.explore(board, new_point, spaces)
+            s, c = BotFunctions.explore(board, new_point, spaces)
             if c == 'F':
                 return (0, 'F')
             elif color == '':
@@ -91,7 +91,3 @@ class TestFunctions:
             else:
                 bias += 1
         return bias
-
-
-    # @staticmethod
-    # def naive_winner(board, scores)
