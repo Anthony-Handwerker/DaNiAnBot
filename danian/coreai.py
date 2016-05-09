@@ -18,7 +18,7 @@ class CoreAI:
     def expansion(self, board, color):
         self.root = MCTreeNode()
         self.expansion_helper(self.root, board, self.depth, color)
-        winrate_max = 0.0
+        winrate_max = -1.0
         best_move = None
         for node in self.root.children:
             winrate = node.wins[color_switch[color]] / (node.wins[0] + node.wins[1])
