@@ -69,6 +69,11 @@ class OGSession:
         ret = self.send_msg_spec(new_url, 'GET')
         return ret
 
+    def get_games(self, page):
+        new_url = url + "games/?page=" + str(page)
+        ret = self.send_msg(new_url, 'GET')
+        return ret
+
     def send_msg(self, url, method, values_list=[]):
         req = None
         if values_list != []:

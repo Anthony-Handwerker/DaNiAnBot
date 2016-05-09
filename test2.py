@@ -10,6 +10,15 @@ def parseSgfIntoMoveList(sgf):
 def main():
     session = ogsession.OGSession()
     print(session.session_key)
+    f = open("games.txt",'r')
+    for line in f:
+        print(line[:-1])
+    return
+    f.write(session.get_sgf(3387106))
+    return
+    thing = session.get_games()
+    print(thing)
+    return
     cids = session.list_challenge_ids()
     print(cids)
     game = cids[0]

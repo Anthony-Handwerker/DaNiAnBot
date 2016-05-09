@@ -1,0 +1,18 @@
+(;FF[4]
+GM[1]
+DT[2015-03-01]
+PC[OGS: http://online-go.com/game/1630403]
+PB[ChristopherA]
+PW[spiralpattern]
+BR[12k]
+WR[12k]
+CP[online-go.com]
+RE[W+T]
+SZ[9]
+KM[5.5]
+RU[japanese]
+;B[ee]
+;W[eg]
+C[spiralpattern: sorry
+]
+)

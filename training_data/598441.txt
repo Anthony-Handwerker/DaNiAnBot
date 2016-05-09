@@ -1,0 +1,100 @@
+(;FF[4]
+GM[1]
+DT[2014-05-10]
+PC[OGS: http://online-go.com/game/598441]
+PB[ssx]
+PW[ST000MA]
+BR[21k]
+WR[16k]
+CP[online-go.com]
+RE[W+9.5]
+SZ[9]
+KM[7.5]
+RU[aga]
+C[ssx: hi :D nie to play again :) enjoy :D
+ssx: *nice
+ST000MA: Hello! You as well! :D
+]
+;B[gd]
+C[ST000MA: Hello! You as well! :D
+]
+;W[df]
+C[ssx: thank you :D
+]
+;B[cg]
+;W[gf]
+;B[dg]
+;W[eg]
+;B[eh]
+;W[fg]
+;B[fh]
+;W[gh]
+C[ST000MA: hey are you online?
+]
+;B[gi]
+C[ssx: yes :)
+]
+;W[hi]
+;B[dh]
+;W[fi]
+;B[ei]
+;W[fd]
+;B[fc]
+;W[ed]
+;B[ec]
+;W[dc]
+;B[db]
+;W[cc]
+C[ST000MA: this is not going well for me...
+]
+;B[cb]
+;W[cf]
+;B[bf]
+;W[be]
+;B[bg]
+;W[ge]
+C[ssx: it's discussing :/
+]
+;B[hd]
+;W[he]
+;B[id]
+;W[ie]
+;B[gc]
+;W[af]
+;B[ag]
+;W[ci]
+C[ST000MA: J5 was my mistake. gonna tell you why...
+]
+;B[bh]
+;W[bi]
+;B[ae]
+;W[bd]
+;B[ad]
+;W[bb]
+;B[ac]
+;W[bc]
+;B[ab]
+;W[ba]
+;B[af]
+;W[ai]
+;B[eb]
+;W[hh]
+;B[ca]
+;W[gi]
+;B[aa]
+;W[de]
+;B[]
+C[ssx: thank you for the gme :)
+ssx: *game
+]
+;W[]
+C[ST000MA: its seki
+ST000MA: i cant capture it except if you play C2
+ssx: oh, yes :)
+ST000MA: then i platy A2, and make shape which is killable...
+ST000MA: play*
+ST000MA: ahh, chinease rules, someone could earn a point playing on D1 or C2 or A2 (but you would not play on C2)
+ST000MA: Thank you for the game!
+ssx: thank you too
+]
+)

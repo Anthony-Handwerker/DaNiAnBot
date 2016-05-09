@@ -45,7 +45,7 @@ class CoreAI:
 
         moves = self.slow_decision(board, self.breadth, color)
         for i in moves:
-            print("LEVEL: " + str(level))
+            #print("LEVEL: " + str(level))
             new_board = copy.deepcopy(board)
             new_board.apply_move(color, (i[0], i[1]))
             child = MCTreeNode()

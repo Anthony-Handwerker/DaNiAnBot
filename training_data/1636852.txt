@@ -1,0 +1,87 @@
+(;FF[4]
+GM[1]
+DT[2015-03-02]
+PC[OGS: http://online-go.com/game/1636852]
+PB[Lefab]
+PW[frolag]
+BR[2k]
+WR[5k]
+CP[online-go.com]
+RE[W+2.5]
+SZ[9]
+KM[5.5]
+RU[japanese]
+C[Lefab: hi
+Lefab: good game!!
+]
+;B[fe]
+C[Lefab: hi
+Lefab: good game!!
+]
+;W[de]
+C[frolag: hi u2
+]
+;B[fg]
+;W[gd]
+;B[fd]
+;W[gc]
+;B[ge]
+;W[fc]
+;B[ec]
+;W[cg]
+;B[eb]
+;W[fb]
+;B[he]
+;W[hd]
+;B[gb]
+;W[hb]
+;B[cd]
+;W[ce]
+;B[bd]
+;W[be]
+;B[dh]
+;W[dd]
+;B[cc]
+;W[dc]
+;B[db]
+;W[ad]
+;B[bb]
+;W[ch]
+;B[eh]
+;W[ie]
+;B[if]
+;W[id]
+;B[ac]
+;W[ae]
+;B[hg]
+;W[di]
+;B[ei]
+;W[ci]
+;B[ef]
+;W[dg]
+;B[eg]
+;W[df]
+;B[fa]
+;W[ea]
+;B[da]
+;W[ga]
+;B[ea]
+;W[ed]
+;B[cb]
+;W[]
+;B[]
+C[frolag: gg
+Lefab: thx 
+Lefab: h8 very well played
+frolag: did you misclick it?
+frolag: i thought you would play h8
+Lefab: yes
+Lefab: i asked you for undo
+frolag: sorry didn't see
+frolag: they should add a sound
+Lefab: with h8 your group was dead
+Lefab: no problem
+Lefab: bye
+frolag: cya soon
+]
+)
