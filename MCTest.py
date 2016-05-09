@@ -1,5 +1,6 @@
 import betago.dataloader.goboard as B
 import danian.coreai as C
+import danian.daniancore as D
 import random
 
 random.seed()
@@ -20,6 +21,7 @@ def fchoice(board, color):
 
 def schoice(board, num, color):
     moves = [(i,j) for i in range(0,9) for j in range(0,9)]
+    #print(board)
     out_list = []
     while True:
         move = random.choice(moves)
@@ -28,21 +30,17 @@ def schoice(board, num, color):
             if len(out_list) == num:
                 break
         moves.remove(move)
+    #print(out_list)
     return out_list
 
 def winner(board):
     return 'b'
 
 def main():
-    ai = C.CoreAI(winner, fchoice, schoice, 3, 3)
-    b = B.GoBoard(9)
-    while True:
-        move = ai.get_move(b, 'b')
-        b.apply_move('b', (move[0], move[1]))
-        print(b)
-        x = int(input())
-        y = int(input())
-        b.apply_move('w', (x, y))
+    #ai = C.CoreAI(winner, fchoice, schoice, 3, 3)
+    d = D.DaNiAn(winner, fchoice, schoice, 3, 3)
+    d.run()
+
 
 if __name__ == '__main__':
     main()

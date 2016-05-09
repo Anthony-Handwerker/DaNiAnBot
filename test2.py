@@ -14,7 +14,7 @@ def main():
     # for line in f:
     #     print(line[:-1])
     # return
-    print(session.get_sgf(1612163))
+    print(session.get_player_id())
     return
     thing = session.get_games()
     print(thing)

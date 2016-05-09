@@ -37,6 +37,18 @@ class OGSession:
     #     body_dict = json.loads(str_body)
     #     print(body_dict)
 
+    def get_player_id(self):
+        new_url = "https://online-go.com/api/v1/" + "me/settings/"
+        # body = self.send_msg_spec(new_url, 'GET')
+        # print(body)
+        body_dict = self.send_msg(new_url, 'GET')
+        return body_dict['profile']['id']
+
+    def get_game_detail(self, gid):
+        new_url = url + "games/" + str(gid) + "/"
+        body_dict = self.send_msg(new_url, 'GET')
+        return body_dict
+
     def list_challenges(self):
         new_url = url + "me/challenges/"
         body_dict = self.send_msg(new_url, 'GET')
@@ -47,6 +59,11 @@ class OGSession:
         body_dict = self.send_msg(new_url, 'GET')
         ret = [x['id'] for x in body_dict['results']]
         return ret
+
+    def get_challenge_validity(self, id):
+        new_url = url + "me/challenges/" + str(id) + "/"
+        body_dict = self.send_msg(new_url, 'GET')
+        return body_dict['game']['height'] == 9 and body_dict['game']['width'] == 9
 
     def accept_challenge(self, id):
         new_url = url + "me/challenges/" + str(id) + "/accept/"
