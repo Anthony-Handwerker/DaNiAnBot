@@ -13,6 +13,7 @@ def parse_move_into_tri(move):
 class GoGame:
     board = []
     color = ''
+    past_states = []
     def __init__(self, c):
         self.color = c
         for i in range(0, 9):
@@ -22,39 +23,52 @@ class GoGame:
 
     def kills(self, tri):
         out = set()
-        rev_dict = {'B':'W','W':'B'}
-        color = rev_dict.get(tri[0])
+        color = 'B' if tri[0] == 'W' else 'W'
         for dir in [(0,1),(1,0),(0,-1),(-1,0)]:
             new_tri = (color, tri[1] + dir[0], tri[2] + dir[1])
             if self.valid(new_tri):
                 out = out.union(self.kill_helper(new_tri))
         return out
-
+    
+    def compact_state(self):
+        flat_board = [item for column in board for item in column];
+        num_positions = len(flat_board)
+        #TODO: Make sure number can handle what we're storing in it.
+        result = 0
+        for i in range(0, num_positions):
+            pos_state = 0
+            if flat_board[i] == 'B':
+                pos_state = 1
+            elif flat_board[i] == 'W':
+                pos_state = 2
+            result |= 2^(2 * i) * pos_state
+        return result
+    
     def kill_helper(self, tri):
         if self.board[tri[1]][tri[2]] != tri[0]:
             return set()
         g = self.get_group(tri)
         surr = self.get_surrounding(g)
-        rev_dict = {'B':'W','W':'B'}
-        color = rev_dict.get(tri[0])
+        color = 'B' if tri[0] == 'W' else 'W'
         if(self.is_killed(color, surr)):
             return g
         else:
             return set()
 
-    def get_group(self, move_tri):
+    def get_group(self, pos):
         searching = set()
         to_search = set()
         searched = set()
-        searching.add((move_tri[1],move_tri[2]))
+        searching.add((pos[0],pos[1]))
+        color = self.board[pos[0], pos[1]]
         while True:
             changes = 0
             for k in searching:
                 for j in [(0,1),(1,0),(0,-1),(-1,0)]:
                     newmove = (k[0] + j[0], k[1] + j[1])
-                    if self.valid((move_tri[0], newmove[0], newmove[1])) and newmove not in searching \
+                    if self.valid(newmove[0], newmove[1]) and newmove not in searching \
                             and newmove not in searched and newmove not in to_search:
-                        if self.board[newmove[0]][newmove[1]] == move_tri[0]:
+                        if self.board[newmove[0]][newmove[1]] == color:
                             to_search.add((newmove[0], newmove[1]))
                             changes += 1
                 searched.add(k)
@@ -73,7 +87,9 @@ class GoGame:
                         group.add((i,j))
         return group
 
-    def is_killed(self, color, surr):
+    def is_killed(self, pos):
+        surrounding = self.get_surrounding(self.get_group(pos))
+        color = 'B' if self.board[pos[0], pos[1]] == 'W' else 'W'
         for pos in surr:
             if self.board[pos[0]][pos[1]] != color:
                 return False
@@ -83,20 +99,40 @@ class GoGame:
     def are_adjacent(self, move1, move2):
         return abs(move1[0]-move2[0]) <= 1 and abs(move1[1]-move2[1]) <= 1 and move1 != move2
 
-    def valid(self, move_tri):
-        return move_tri[1] >= 0 and move_tri[2] >= 0 and move_tri[1] < len(self.board) and \
-               move_tri[2] < len(self.board)
+    def valid(self, pos):
+        return pos[0] >= 0 and pos[1] >= 0 and pos[0] < len(self.board) and \
+               pos[1] < len(self.board)
 
-    def illegal(self, move_tri):
+    def illegal(self, color, pos):
+        if board[pos[0], pos[1]] != '':
+            return True
+        if len(kills((color, pos[0], pos[1]))) == 0: # TODO: Refactor kills to use pos
+            board[pos[0], pos[1]] = color
+            if self.is_killed(pos):
+                board[pos[0], pos[1]] = ''
+                return True
+            board[pos[0], pos[1]] = ''
+        if self.ko(color, pos):
+            return True
         return False
 
-    def ko(self, move_tri):
+    def ko(self, color, pos):
+        old_pos = self.board[pos[0]][pos[1]]
+        self.board[pos[0]][pos[1]] = color
+        new_state = self.compact_state()
+        self.board[pos[0]][pos[1]] = old_pos
+        if new_state in self.past_states:
+            return True
         return False
 
-    def play_move(self, move_tri):
-        self.board[move_tri[1]][move_tri[2]] = move_tri[0]
-        g = self.kills(move_tri)
+    def play_move(self, color, pos):
+        if self.illegal(color, pos):
+            return False
+        self.board[pos[0]][pos[1]] = color
+        g = self.kills(move_tri) # TODO: Refactor kills to use pos
         self.rem(g)
+        self.past_states.append(self.compact_state())
+        return True
 
     def rem(self, g):
         for move in g:
