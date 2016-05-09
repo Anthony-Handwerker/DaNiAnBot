@@ -1,0 +1,112 @@
+(;FF[4]
+GM[1]
+DT[2016-04-06]
+PC[OGS: http://online-go.com/game/4766629]
+PB[spatula]
+PW[BlackTea]
+BR[8k]
+WR[10k]
+CP[online-go.com]
+RE[B+R]
+SZ[9]
+KM[5.5]
+RU[japanese]
+C[BlackTea: have fun
+spatula: you too!
+]
+;B[cf]
+C[BlackTea: have fun
+spatula: you too!
+]
+;W[ge]
+;B[dc]
+;W[dg]
+C[spatula: I have no plan in the opening lol
+BlackTea: me too
+BlackTea: lol
+]
+;B[gc]
+C[BlackTea: let's mess it up 
+]
+;W[dd]
+C[spatula: ugh...
+spatula: I'm lost
+BlackTea: not yet
+spatula: lost as in
+spatula: lost @@
+]
+;B[de]
+C[BlackTea: did you read until the last move?
+]
+;W[ed]
+C[spatula: not lost
+spatula: lost
+]
+;B[cd]
+C[spatula: lost direction
+]
+;W[ec]
+;B[db]
+;W[eb]
+;B[fb]
+;W[ea]
+;B[ee]
+;W[fc]
+C[BlackTea: ughhh
+]
+;B[fg]
+;W[bh]
+C[BlackTea: i hope 2-2 could work :3
+spatula: ugh.. I wish i have more time
+]
+;B[cg]
+C[BlackTea: i used to open with 2-2 and 2-3  before i fall in love with 5-5
+]
+;W[ch]
+;B[eh]
+;W[dh]
+;B[ff]
+C[spatula: ugh.. such a soft move
+BlackTea: i'm gonna dying
+]
+;W[be]
+;B[ce]
+;W[bg]
+;B[bf]
+;W[ag]
+;B[di]
+;W[ci]
+;B[ai]
+;W[cc]
+;B[cb]
+;W[bc]
+;B[bb]
+;W[bd]
+;B[ae]
+;W[af]
+;B[ac]
+;W[hg]
+;B[gh]
+;W[hh]
+;B[gf]
+;W[hf]
+;B[gd]
+C[BlackTea: lol
+spatula: gg
+BlackTea: it's a bloody game
+spatula: yup
+BlackTea: gg
+BlackTea: thank you
+spatula: \[23:46\] BlackTea \[10k\]: let's mess it up :p
+spatula: followed your command 
+BlackTea: hahaa
+BlackTea: good job private spa
+spatula: some profit. From move 33: B8 B7 C9 C7 D9 
+BlackTea: yeah
+spatula: fun game!
+BlackTea: :)
+BlackTea: see you in chatroom
+spatula: yup
+spatula: better move. From move 22: F5 
+]
+)

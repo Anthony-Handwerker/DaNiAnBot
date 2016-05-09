@@ -1,0 +1,26 @@
+(;FF[4]
+GM[1]
+DT[2016-01-25]
+PC[OGS: http://online-go.com/game/3781778]
+PB[hhh123]
+PW[Anoniem]
+BR[9k]
+WR[4k]
+CP[online-go.com]
+RE[Void]
+SZ[9]
+KM[5.5]
+RU[japanese]
+;B[cc]
+;W[gg]
+;B[cf]
+;W[gd]
+;B[fb]
+;W[dh]
+;B[hc]
+;W[bg]
+C[hhh123: copy
+Anoniem: so
+Anoniem: you cant even beat it
+]
+)

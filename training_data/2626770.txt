@@ -1,0 +1,58 @@
+(;FF[4]
+GM[1]
+DT[2015-08-14]
+PC[OGS: http://online-go.com/game/2626770]
+PB[monster1]
+PW[gqshan]
+BR[9k]
+WR[6k]
+CP[online-go.com]
+RE[B+R]
+SZ[9]
+KM[5.5]
+RU[japanese]
+C[monster1: hi
+]
+;B[gc]
+C[monster1: hi
+]
+;W[cf]
+C[gqshan: hi
+]
+;B[dc]
+;W[ff]
+;B[eh]
+;W[bc]
+;B[cc]
+;W[fg]
+;B[bg]
+;W[dh]
+;B[dg]
+;W[ch]
+;B[cg]
+;W[eg]
+;B[df]
+;W[ce]
+;B[de]
+;W[cd]
+;B[dd]
+;W[bb]
+;B[cb]
+;W[ad]
+;B[ba]
+;W[ab]
+C[GregorS: d1. From move 24: A4 A5 B5 
+]
+;B[af]
+C[monster1: all dead
+monster1: gg
+monster1: thank you
+monster1: good luck in next round
+gqshan: gg :)
+monster1: I will lose to gregor in the next round
+monster1: he is EXCELLENT
+gqshan: try it
+gqshan: you won't know that for sure before the end of the game
+monster1: thanks
+]
+)

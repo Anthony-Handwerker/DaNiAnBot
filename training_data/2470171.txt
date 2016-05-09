@@ -1,0 +1,87 @@
+(;FF[4]
+GM[1]
+DT[2015-07-22]
+PC[OGS: http://online-go.com/game/2470171]
+PB[Ingrid]
+PW[Terranigma]
+BR[10k]
+WR[2k]
+CP[online-go.com]
+RE[W+R]
+SZ[9]
+KM[5.5]
+RU[japanese]
+C[Ingrid: Have a great game!
+Terranigma: Have a fantastic game! :)
+]
+;B[gg]
+C[Ingrid: Have a great game!
+Terranigma: Have a fantastic game! :)
+]
+;W[de]
+;B[gd]
+;W[fc]
+;B[gc]
+;W[gf]
+;B[hf]
+;W[ff]
+;B[he]
+;W[fg]
+;B[cc]
+;W[dc]
+C[Terranigma: preventing the cut with h2 is larger than doing so with h5. From move 8: H2 
+Ingrid: Oh, thanks for the idea -- I hadn't thought of that way of taking care of the situation, but it makes complete sense -- thank you for pointing it out!
+]
+;B[cd]
+C[Terranigma: You're welcome -- glad to be of use!
+]
+;W[ce]
+;B[dd]
+;W[ed]
+;B[db]
+;W[ec]
+;B[be]
+;W[bf]
+;B[bd]
+;W[cg]
+;B[eb]
+;W[fb]
+;B[gh]
+;W[bb]
+;B[cb]
+;W[ca]
+;B[ac]
+;W[ae]
+;B[aa]
+;W[ba]
+;B[ea]
+;W[ab]
+;B[ad]
+;W[gb]
+;B[hb]
+;W[ha]
+;B[hc]
+;W[fh]
+;B[fi]
+;W[ei]
+;B[gi]
+;W[eh]
+;B[ib]
+;W[fd]
+;B[ge]
+;W[fe]
+;B[ia]
+;W[ga]
+;B[fa]
+C[Ingrid: Thank you for the game!  I've been thinking a lot about b8 -- was there any hope of anything for black?  (At one point, I thought black may be able to get a seki or some horrible ko...not that that would have been enough, of course!)
+Terranigma: A ko seems unavoidable to me, but in this case it would have been a ko I could not win.
+Terranigma: Start with D9. From move 28: D9 
+Terranigma: White cannot respond by connecting at B9. From move 28: D9 B9 B7 A5 A6 A8 A4 F9 A7 E9 A9 B9 B8 
+Terranigma: So White has to play A9, and then black plays the ko.. From move 28: D9 A9 B9 
+Terranigma: Now white needs a ko threat, but in this game there were none of those for me.
+Terranigma: Moreover, white cannot respond to B9 by connecting at A8 either.. From move 28: D9 A9 B9 A8 A7 C9 B7 
+Terranigma: In this game I played a bad (too small, too soon) move at F3, and I was very much losing the game.
+Terranigma: So B8 was me "trying" something, knowing it didn't really work... but that the correct response would be surprisingly complicated. :)
+Terranigma: So, good game, in any case!
+]
+)

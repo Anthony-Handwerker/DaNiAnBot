@@ -10,11 +10,11 @@ def parseSgfIntoMoveList(sgf):
 def main():
     session = ogsession.OGSession()
     print(session.session_key)
-    f = open("games.txt",'r')
-    for line in f:
-        print(line[:-1])
-    return
-    f.write(session.get_sgf(3387106))
+    # f = open("games.txt",'r')
+    # for line in f:
+    #     print(line[:-1])
+    # return
+    print(session.get_sgf(1612163))
     return
     thing = session.get_games()
     print(thing)

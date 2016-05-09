@@ -1,0 +1,81 @@
+(;FF[4]
+GM[1]
+DT[2015-01-05]
+PC[OGS: http://online-go.com/game/1329485]
+PB[Azunjau]
+PW[Rikhon]
+BR[14k]
+WR[8k]
+CP[online-go.com]
+RE[W+R]
+SZ[9]
+KM[5.5]
+RU[japanese]
+C[Azunjau: howdy partner
+Rikhon: hillow \\o/
+]
+;B[de]
+;W[cf]
+;B[fe]
+;W[ce]
+;B[cd]
+;W[fc]
+;B[dc]
+;W[ed]
+;B[dd]
+;W[ee]
+;B[ef]
+;W[ff]
+;B[fd]
+;W[ec]
+;B[gc]
+;W[gd]
+;B[ge]
+;W[df]
+;B[eg]
+;W[db]
+;B[bd]
+;W[fg]
+;B[eh]
+C[Rikhon: 9x9 is full of tsumego @_@
+]
+;W[fh]
+;B[cb]
+;W[gb]
+;B[hc]
+;W[dh]
+C[Rikhon: tralla la
+]
+;B[gf]
+;W[dg]
+;B[ag]
+;W[bg]
+;B[af]
+;W[hb]
+;B[hd]
+;W[eb]
+;B[hh]
+;W[ah]
+;B[bh]
+C[Rikhon: hmm ?
+Rikhon: thats a mistake
+Azunjau: mmh
+]
+;W[ae]
+C[Azunjau: even i make mistakes :o
+Rikhon: d1. From move 38: A5 
+Azunjau: nice game
+Rikhon: nice game :)
+Rikhon: the game was pretty close
+Azunjau: I shouldn't have tried to kill in the beginning
+Rikhon: maybe the komi would have differ it
+Azunjau: but it was so tempting i couldn't resist
+Rikhon: haha .. my starting wasnt good
+Rikhon: i'm currently no 1 in 9x9 overall \\o/
+Azunjau: ouO congratulations
+Rikhon: 2nd in live 9x9 XDD
+Rikhon: but dunno how i'm in top 10 in live games o.O
+Azunjau: yep, those leaderboards are bit strange
+Azunjau: but nice idea
+]
+)

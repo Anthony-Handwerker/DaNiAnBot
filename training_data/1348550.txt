@@ -1,0 +1,89 @@
+(;FF[4]
+GM[1]
+DT[2015-01-09]
+PC[OGS: http://online-go.com/game/1348550]
+PB[aik]
+PW[maskerfreedomlittlemonster]
+BR[9k]
+WR[1k]
+CP[online-go.com]
+RE[W+10.5]
+SZ[9]
+KM[5.5]
+RU[japanese]
+;B[eg]
+;W[ef]
+;B[ee]
+;W[df]
+;B[fg]
+;W[ff]
+;B[gg]
+;W[gf]
+;B[ec]
+;W[gc]
+;B[cd]
+;W[be]
+;B[bd]
+;W[ch]
+;B[dh]
+;W[dg]
+;B[ei]
+;W[hg]
+;B[hh]
+;W[hf]
+;B[ih]
+;W[fb]
+;B[eb]
+;W[ea]
+;B[da]
+;W[fa]
+;B[bb]
+;W[fc]
+;B[bf]
+;W[ce]
+;B[ae]
+;W[db]
+;B[de]
+;W[cf]
+;B[ca]
+;W[ed]
+;B[dc]
+;W[bg]
+;B[af]
+;W[ag]
+;B[ad]
+;W[ci]
+;B[gi]
+;W[di]
+;B[eh]
+;W[fe]
+;B[dd]
+;W[fd]
+;B[ig]
+;W[if]
+;B[]
+;W[]
+C[maskerfreedomlittlemonster: thanks
+aik: ugh.. by 10 pts
+aik: thanks :)
+maskerfreedomlittlemonster: it's because of komi
+maskerfreedomlittlemonster: you are a strong 9k
+aik: hm.. right, the diff is 5 pts
+aik: one day i managed to capture the entire board in a game against a 6 kyu, in another game i lost almost everything to a 18 kyu - it depends :)
+maskerfreedomlittlemonster: haha yeah :)
+maskerfreedomlittlemonster: maybe it was a fake 18k tho :P
+aik: it's possible; there is one 18k here that consistently beats me :)
+aik: does this make sense?. From move 22: G6 
+aik: i though about making something fancy, but decided not to risk
+maskerfreedomlittlemonster: yeah that would be a good move
+maskerfreedomlittlemonster: d1. From move 24: G6 H6 F7 H8 D9 F9 B8 
+maskerfreedomlittlemonster: i was assuming your moves like this
+aik: hm.. theres something wrong with the way the site displays the variation.. let me reload the page..
+aik: now it's better; however as white i would reply in a different way
+aik: like this. From move 22: G6 F6 F7 E8 
+maskerfreedomlittlemonster: hmm
+aik: here black attempts to take the cutting stone. From move 22: G6 F6 F7 E8 F5 D7 E6 D6 D5 C5 
+aik: and gets two hardly alive groups
+aik: anyway... one more? and then it seems i have to go to sleep :)
+]
+)

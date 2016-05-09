@@ -1,0 +1,109 @@
+(;FF[4]
+GM[1]
+DT[2015-08-03]
+PC[OGS: http://online-go.com/game/2553616]
+PB[Mr Newby]
+PW[maka]
+BR[6k]
+WR[4k]
+CP[online-go.com]
+RE[W+4.5]
+SZ[9]
+KM[5.5]
+RU[japanese]
+;B[df]
+;W[ec]
+C[Mr Newby: Hi again maka
+maka: hi
+]
+;B[gf]
+;W[cd]
+;B[cf]
+;W[gg]
+C[Mr Newby: I'm planning on beating you by 0.5
+]
+;B[fg]
+;W[gd]
+;B[hf]
+;W[he]
+;B[ge]
+C[LostStone:  Mr Newby is playing well today :)
+]
+;W[hd]
+C[yew: yeas, he does 
+yew: .)
+]
+;B[dd]
+;W[dc]
+;B[ce]
+;W[bd]
+;B[be]
+;W[if]
+;B[ig]
+;W[ie]
+;B[hg]
+;W[ed]
+;B[ee]
+;W[ae]
+;B[af]
+;W[ad]
+;B[fd]
+;W[fc]
+;B[fe]
+C[Amazing: Black will loose this one.
+]
+;W[de]
+C[LostStone: I believe you
+]
+;B[gc]
+;W[hc]
+;B[dd]
+;W[bg]
+C[Amazing: Even if he looses the ko.
+LostStone: White is a couple points ahead, i think
+]
+;B[cc]
+;W[de]
+;B[gb]
+;W[hb]
+;B[dd]
+C[LostStone: I think white is playing with fire
+]
+;W[bc]
+;B[cb]
+;W[bb]
+C[Amazing: I think he is save.
+]
+;B[db]
+C[LostStone: Is white toying with black maybe?
+]
+;W[fb]
+C[Amazing: With B3 it doesn´t look like Black could do much in Black´s territory.
+Amazing: *White´s :)
+]
+;B[bf]
+;W[de]
+C[Mr Newby: concede
+]
+;B[ba]
+C[Amazing: This is not a threat?
+]
+;W[dd]
+C[Mr Newby: well done... again
+]
+;B[]
+;W[]
+C[maka: thx
+Mr Newby: Nope, we can't
+Mr Newby: Yeah.... I really like this feature... it is hidden during game, but shows after fishish
+dachen11: white win by komi
+LostStone: Yeah. I hope they can't read this chat
+Amazing: They can.
+Amazing: After the game.
+Amazing: Damn, ruined the pointe o.o
+Amazing: However, great game.
+Amazing: See you guys.
+LostStone: Very intereesting. I thought 9pt was beginner game only
+LostStone: Have to remember not to trash people :)
+]
+)

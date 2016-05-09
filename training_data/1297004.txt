@@ -1,0 +1,111 @@
+(;FF[4]
+GM[1]
+DT[2014-12-29]
+PC[OGS: http://online-go.com/game/1297004]
+PB[mets]
+PW[Jagad]
+BR[1k]
+WR[2d]
+CP[online-go.com]
+RE[B+0.5]
+SZ[9]
+KM[5.5]
+RU[japanese]
+C[Jagad: Hi
+]
+;B[ee]
+;W[fc]
+C[mets: hi
+]
+;B[dc]
+;W[ge]
+;B[gf]
+;W[fe]
+;B[ff]
+;W[cf]
+;B[df]
+;W[cg]
+;B[fb]
+;W[gb]
+;B[eb]
+;W[hc]
+;B[ce]
+;W[be]
+;B[bd]
+;W[cd]
+;B[de]
+;W[bc]
+;B[bf]
+;W[ad]
+;B[bg]
+;W[ch]
+;B[bh]
+;W[eh]
+;B[dh]
+;W[dg]
+;B[eg]
+;W[di]
+;B[bi]
+;W[fg]
+;B[ef]
+;W[ci]
+;B[fh]
+;W[gh]
+;B[gg]
+;W[fi]
+;B[hh]
+;W[fg]
+C[▬▬▬: ?. From move 36: F1 G1 G3 
+ernestas.romeika: ? - ans. From move 36: F1 G3 
+]
+;B[fd]
+C[▬▬▬: Ah, thx
+ernestas.romeika: good threat
+ernestas.romeika: seems like B will win
+]
+;W[fh]
+;B[gd]
+;W[he]
+;B[hd]
+C[ernestas.romeika: Hmm
+ernestas.romeika: If w sacrafices it
+ernestas.romeika: he can still win
+]
+;W[cb]
+C[ernestas.romeika: yeah!
+]
+;B[cc]
+C[ernestas.romeika: H1
+]
+;W[db]
+;B[dd]
+;W[bd]
+;B[da]
+C[ernestas.romeika: oh no
+]
+;W[bb]
+C[ernestas.romeika: B will squeeze and win
+]
+;B[hi]
+;W[ca]
+;B[ec]
+;W[ea]
+;B[fa]
+;W[da]
+;B[af]
+;W[ah]
+;B[ab]
+;W[aa]
+;B[ba]
+C[ernestas.romeika: b+
+]
+;W[ai]
+;B[]
+;W[]
+C[Jagad: Thanks nice 
+mets: thx
+ernestas.romeika: h1 was big
+ernestas.romeika: for both
+ernestas.romeika: ^^
+]
+)

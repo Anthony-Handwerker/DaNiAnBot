@@ -1,0 +1,138 @@
+(;FF[4]
+GM[1]
+DT[2016-01-10]
+PC[OGS: http://online-go.com/game/3669224]
+PB[iDet]
+PW[AkuDiSini]
+BR[16k]
+WR[11k]
+CP[online-go.com]
+RE[W+31.5]
+SZ[9]
+KM[5.5]
+RU[japanese]
+C[AkuDiSini: ;P
+AkuDiSini: :P
+AkuDiSini: I'm not good at this board.
+]
+;B[ee]
+;W[dg]
+;B[df]
+;W[cf]
+;B[eg]
+;W[dh]
+C[iDet: udah 11k haha
+]
+;B[ce]
+;W[bf]
+;B[eh]
+;W[be]
+C[AkuDiSini: tapi nggak mahir di 9x9
+]
+;B[cd]
+C[iDet: ayok di 19x19 jg... 
+iDet: tp aku sk ksel klo lama
+iDet: haha
+]
+;W[ge]
+C[AkuDiSini: koneksiku lambat ini
+AkuDiSini: hih
+]
+;B[bd]
+;W[bh]
+;B[gc]
+;W[fd]
+;B[fc]
+;W[gg]
+;B[hi]
+;W[ed]
+;B[ec]
+;W[dd]
+;B[de]
+;W[ff]
+;B[ef]
+C[iDet: hmmmm
+]
+;W[dc]
+;B[cb]
+;W[db]
+;B[eb]
+;W[cc]
+;B[hg]
+;W[hf]
+;B[gh]
+;W[bc]
+;B[ih]
+C[AkuDiSini: aaaaaaaaaaaaaa
+AkuDiSini: salah
+]
+;W[ic]
+;B[hb]
+;W[ib]
+;B[hd]
+C[iDet: ayooo
+]
+;W[id]
+;B[he]
+;W[ie]
+;B[gd]
+;W[fe]
+;B[if]
+;W[ig]
+;B[hh]
+;W[if]
+;B[ac]
+;W[bb]
+;B[ab]
+;W[ea]
+;B[fg]
+;W[gf]
+;B[di]
+;W[ci]
+;B[ei]
+C[iDet: aduuuhhh
+]
+;W[fa]
+;B[ae]
+;W[af]
+;B[ad]
+;W[gb]
+;B[ba]
+;W[ca]
+C[AkuDiSini: aduhhhhhhhhhhh
+]
+;B[aa]
+;W[fb]
+C[iDet: asemmm
+]
+;B[]
+C[AkuDiSini: hwakhakha
+AkuDiSini: lu kate guwe asem
+]
+;W[]
+C[iDet: gimana nih klo gini
+AkuDiSini: lanjut lagi
+]
+;B[]
+C[AkuDiSini: biar fix
+]
+;W[cg]
+C[AkuDiSini: satu langkah lagi
+AkuDiSini: ayo
+AkuDiSini: kamu klik pass aja
+iDet: haha 
+AkuDiSini: cepetan
+]
+;B[ha]
+;W[hc]
+;B[]
+;W[]
+C[AkuDiSini: thanks
+iDet: adawww
+AkuDiSini: ini kebetulan aja aku menang karena mood lagi lumayan bagus
+AkuDiSini: biasanya mah agak kesulitan
+iDet: haha 9x9 asem jg ya
+AkuDiSini: see you ^^6
+AkuDiSini: ^^
+]
+)

@@ -11,7 +11,7 @@ def main():
         f2 = open("training_data/" + l + ".txt", 'w')
         try:
             s = session.get_sgf(l)
-            f2.write()
+            f2.write(s)
             f2.close()
         except:
             print("ERROR ON")
