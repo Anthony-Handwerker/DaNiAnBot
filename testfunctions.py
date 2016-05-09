@@ -40,7 +40,7 @@ class TestFunctions:
 
     @staticmethod
     def naive_winner(board):
-        score = TestFunctions.get_bias(board, 6.5)
+        score = TestFunctions.get_bias(board, 5.5)
         spaces = [(i,j) for i in range(0,9) for j in range(0,9)]
         for i in range(0,9):
             for j in range(0,9):
