@@ -21,10 +21,14 @@ class DaNiAn:
         s = SGF.Sgf_game.from_string(str.encode(self.og.get_sgf(gid)))
         self.games[gid] = (self.games[gid][0], B.GoBoard(9))
         board = self.games[gid][1]
+        last_move = None
         for item in s.main_sequence_iter():
             color, move = item.get_move()
             if color is not None and move is not None:
                 board.apply_move(color, move)
+                last_move = (color, move)
+        if last_move is not null:
+            brain.apply_move(last_move[0], last_move[1])
 
     def accept_challenges(self):
         challenges = self.og.list_challenge_ids()
