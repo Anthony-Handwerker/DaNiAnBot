@@ -5,11 +5,11 @@ import betago.gosgf.sgf as SGF
 import betago.dataloader.goboard as B
 
 class DaNiAn:
-    def __init__(self, winner, fchoice, schoice, breadth = 3, width = 3):
+    def __init__(self, winner, brain, breadth = 3, width = 3):
         self.og = ogsession.OGSession()
         self.pid = self.og.get_player_id()
         self.games = {}
-        self.ai = coreai.CoreAI(winner, fchoice, schoice, breadth, width)
+        self.ai = coreai.CoreAI(winner, brain, breadth, width)
         
 
     def run(self):

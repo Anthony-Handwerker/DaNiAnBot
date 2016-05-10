@@ -8,7 +8,7 @@ import random
 
 def main():
     #ai = C.CoreAI(winner, fchoice, schoice, 3, 3)
-    d = D.DaNiAn(F.BotFunctions.naive_winner, F.BotFunctions.random_fchoice, F.BotFunctions.random_schoice, 30, 1)
+    d = D.DaNiAn(F.BotFunctions.naive_winner, //BRAIN GOES HERE// , 3, 3)
     d.run()
 
 

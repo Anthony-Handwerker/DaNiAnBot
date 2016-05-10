@@ -5,10 +5,9 @@ color_switch = {'b':0, 'w':1}
 PASS_TYPE = None
 
 class CoreAI:
-    def __init__(self, winner = None, fdecision = None, sdecision = None, breadth = 3, depth = 5): #arbitrary breadth/depth choices
+    def __init__(self, winner = None, brain = None, breadth = 3, depth = 5): #arbitrary breadth/depth choices
         self.winner = winner # should accept a board and return n
-        self.fast_decision = fdecision # should accept a board, return a move.
-        self.slow_decision = sdecision # should accept a number n and a board, and return n moves in a list.
+        self.brain = brain
         self.root = MCTreeNode()
         self.breadth = breadth
         self.depth = depth
@@ -31,7 +30,7 @@ class CoreAI:
     def expansion_helper(self, node, board, level, color):
         if level == 0:
             while True:
-                move = self.fast_decision(board, color)
+                move = self.brain.top_move(board, color)
                 if move is None:
                     break
                 board.apply_move(color, (move[0], move[1]))
@@ -44,7 +43,7 @@ class CoreAI:
             node.back_propagate()
             return
 
-        moves = self.slow_decision(board, self.breadth, color)
+        moves = self.brain.top_moves(board, self.breadth, color)
         for i in moves:
             #print("LEVEL: " + str(level))
             child = MCTreeNode()
