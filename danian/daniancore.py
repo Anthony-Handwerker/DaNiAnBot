@@ -56,6 +56,9 @@ class DaNiAn:
             if self.check_turn(game):
                 self.refresh_board(game)
                 move = self.ai.get_move(self.games[game][1], self.games[game][0])
+                if move is None:
+                    self.og.make_move(game, "")
+                    games.remove(game)
                 #print("Making move " + str(move) + " in game " + str(game))
                 #print(self.games[game][1])
                 self.og.make_move(game, "abcdefghi"[move[1]] + "abcdefghi"[8-move[0]])
