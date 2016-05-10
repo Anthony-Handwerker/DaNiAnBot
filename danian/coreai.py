@@ -2,6 +2,7 @@
 import copy
 
 color_switch = {'b':0, 'w':1}
+PASS_TYPE = None
 
 class CoreAI:
     def __init__(self, winner = None, fdecision = None, sdecision = None, breadth = 3, depth = 5): #arbitrary breadth/depth choices
@@ -46,11 +47,16 @@ class CoreAI:
         moves = self.slow_decision(board, self.breadth, color)
         for i in moves:
             #print("LEVEL: " + str(level))
-            new_board = copy.deepcopy(board)
-            new_board.apply_move(color, (i[0], i[1]))
             child = MCTreeNode()
             child.move = i
             node.add_child(child)
+            if i is None:
+                child.wins[color_switch[self.winner(board)]] += 1
+                child.back_propagate()
+                return
+            new_board = copy.deepcopy(board)
+            new_board.apply_move(color, (i[0], i[1]))
+            
             self.expansion_helper(child, new_board, level-1, board.other_color(color))
 
 
