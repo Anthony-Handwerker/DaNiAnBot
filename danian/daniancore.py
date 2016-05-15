@@ -27,8 +27,8 @@ class DaNiAn:
             if color is not None and move is not None:
                 board.apply_move(color, move)
                 last_move = (color, move)
-        if last_move is not null:
-            brain.apply_move(last_move[0], last_move[1])
+        # if last_move is not None:
+        #     brain.apply_move(last_move[0], last_move[1])
 
     def accept_challenges(self):
         challenges = self.og.list_challenge_ids()
